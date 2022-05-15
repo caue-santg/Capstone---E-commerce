@@ -1,11 +1,12 @@
 /*
 - E-COMMERCE -
 RESETAR CONFFIG.S
-
 */
 
 /*
+
 CABEÇALHO
+
 */
 body{
     font-family: 'Inter';
@@ -36,8 +37,8 @@ header h1{
 }
 
 header h1:hover{
-    background-color: #37268c09;
-    box-shadow: 3px 3px 50px 3px rgba(0, 0, 0, 0.10);
+    background-color: #37268C;
+    box-shadow: 3px 3px 50px 3px rgba(29, 23, 129, 0.5);
     transform: scale(105%);
 }
 
@@ -57,8 +58,8 @@ header nav .menuHome{
 }
 
 header nav .menuHome:hover{
-    background-color: #37268c09;
-    box-shadow: 3px 3px 50px 3px rgba(0, 0, 0, 0.10);
+    background-color: #37268C;
+    box-shadow: 3px 3px 50px 3px rgba(29, 23, 129, 0.5);
     transform: scale(105%);
     border-radius: 50px;
 }
@@ -107,6 +108,7 @@ header nav .menu:hover{
     margin: 10px 15px ;
 
 }
+
 .Vitrine  ul .cardProduto:hover{
     border: 3px solid #37268C;
 }
@@ -124,6 +126,7 @@ header nav .menu:hover{
     margin: auto;
     
 }
+
 .Vitrine  ul .cardProduto figure img:hover{
     transform: scale(125%);
 }
@@ -172,7 +175,6 @@ header nav .menu:hover{
     color: #242424;
 }
 
-
 .Vitrine  ul .cardProduto .descricao .preco{
     font-family: 'Inter';
     font-style: normal;
@@ -199,17 +201,19 @@ header nav .menu:hover{
     text-decoration: underline;
    
 }
+
 /*
+
     BARRA LATERAL 
     
 */
-
 .barraLateral{
     width: 347px;
     height: 264px;
     margin-top: 27px;
 
 }
+
 .barraLateral .caixaPesquisa{
     display: flex;
     margin-bottom: 30px;
@@ -238,6 +242,7 @@ header nav .menu:hover{
 }
     
     /*
+    
     /CARRINHO COMPRAS
 
     */
