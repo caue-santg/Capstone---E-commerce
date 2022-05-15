@@ -34,6 +34,7 @@ header h1{
     font-size: 30px;
     line-height: 24px;
     border-radius: 25px;
+    cursor: pointer
 }
 
 header h1:hover{
@@ -55,6 +56,7 @@ header nav .sobreNos{
     font-weight: 600;
     font-size: 18px;
     line-height: 24px;
+    cursor: pointer
 }
 
 header nav .sobreNos:hover{
@@ -71,6 +73,7 @@ header nav .menu{
     font-size: 16px;
     line-height: 24px;
     color: #242424;
+    cursor: pointer
 }
 
 header nav .menu:hover{
@@ -124,11 +127,11 @@ header nav .menu:hover{
 .Vitrine  ul .cardProduto figure img{
     display: flex;
     margin: auto;
-    
+    cursor: pointer
 }
 
 .Vitrine  ul .cardProduto figure img:hover{
-    transform: scale(125%);
+    transform: scale(125%); 
 }
 
 .Vitrine  ul .cardProduto .descricao{
@@ -147,6 +150,7 @@ header nav .menu:hover{
     height: 24px;
     background-color: #2E245E;
     color: #FFFFFF;
+    cursor: pointer
 }
 
 .Vitrine  ul .cardProduto .descricao .tipo:hover{
@@ -194,6 +198,7 @@ header nav .menu:hover{
     height: 16px;
     font-weight: 500;
     line-height: 16px;
+    cursor: pointer
 }
 
 .Vitrine ul .cardProduto .descricao .adcCarrinho:hover{
@@ -276,6 +281,7 @@ header nav .menu:hover{
     font-size: 14px;
     line-height: 16px;
     color: #242424;
+    cursor: pointer
 }
 
 .barraLateral .carrinhoCompra p:hover{
