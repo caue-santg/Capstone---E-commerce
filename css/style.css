@@ -1,0 +1,280 @@
+/*
+- E-COMMERCE -
+RESETAR CONFFIG.S
+
+*/
+
+/*
+CABEÇALHO
+*/
+body{
+    font-family: 'Inter';
+    font-style: normal;
+    Width: 1600px;
+    height: 919;
+    background: #FFFFFF;
+    border-radius: 4px;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    Width: 1603px;
+    Height: 70px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px -10px rgba(0, 0, 0, 0.25);
+}
+
+header h1{
+    margin: 15px 175px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 24px;
+    border-radius: 25px;
+}
+
+header h1:hover{
+    background-color: #37268c09;
+    box-shadow: 3px 3px 50px 3px rgba(0, 0, 0, 0.10);
+    transform: scale(105%);
+}
+
+header nav{
+    display: flex;   
+    margin: 10px 150px;   
+    color: #2E245E
+}
+
+header nav .menuHome{
+    color: #242424;
+    display: flex;
+    margin: 10px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+header nav .menuHome:hover{
+    background-color: #37268c09;
+    box-shadow: 3px 3px 50px 3px rgba(0, 0, 0, 0.10);
+    transform: scale(105%);
+    border-radius: 50px;
+}
+
+header nav .menu{
+    display: flex;
+    margin: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #242424;
+}
+
+header nav .menu:hover{
+    background-color: #37268c09;
+    box-shadow: 3px 3px 50px 3px rgba(0, 0, 0, 0.10);
+    transform: scale(105%);
+    border-radius: 10px;
+}
+/*
+
+    HOME
+
+*/
+.Vitrine {  
+    display: flex;
+    width: 1350px;
+    height: 838px;
+    margin: 60px 115px;
+
+}
+
+.Vitrine  ul{
+    display: flex;
+    flex-wrap: wrap;
+    width: 968px;
+    height: 838px;
+    list-style: none;
+    
+}
+
+.Vitrine  ul .cardProduto{
+    border: 3px solid #F5F5F5; 
+    width: 275px;
+    height: 408px;
+    margin: 10px 15px ;
+
+}
+.Vitrine  ul .cardProduto:hover{
+    border: 3px solid #37268C;
+}
+
+.Vitrine  ul .cardProduto figure{
+    margin: auto;
+    width: 275px;
+    height: 154px;
+    background: #F5F5F5;
+    
+}
+
+.Vitrine  ul .cardProduto figure img{
+    display: flex;
+    margin: auto;
+    
+}
+.Vitrine  ul .cardProduto figure img:hover{
+    transform: scale(125%);
+}
+
+.Vitrine  ul .cardProduto .descricao{
+    padding: 20px 15px;
+    
+}
+
+.Vitrine  ul .cardProduto .descricao .tipo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 5px;
+    border: 3px solid white;
+    width: 70px;
+    height: 24px;
+    background-color: #2E245E;
+    color: #FFFFFF;
+}
+
+.Vitrine  ul .cardProduto .descricao .tipo:hover{
+    border: 3px solid #2E245E;
+    transform: scale(102%);
+    padding: 12px 5px #2E245E;
+}
+
+.Vitrine  ul .cardProduto .descricao .nomeProduto{
+    width: 269px;
+    height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #292929;
+}
+
+.Vitrine  ul .cardProduto .descricao .descricaProduto{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #242424;
+}
+
+
+.Vitrine  ul .cardProduto .descricao .preco{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    width: 269px;
+    height: 16px;
+    color: #2E245E;
+}
+
+.Vitrine  ul .cardProduto .descricao .adcCarrinho{
+    align-items: center;
+    background-color: white;
+    border: 1px solid white;
+    width: 245px;
+    height: 16px;
+    font-weight: 500;
+    line-height: 16px;
+}
+
+.Vitrine ul .cardProduto .descricao .adcCarrinho:hover{
+    transform: scale(110%);
+    text-decoration: underline;
+   
+}
+/*
+    BARRA LATERAL 
+    
+*/
+
+.barraLateral{
+    width: 347px;
+    height: 264px;
+    margin-top: 27px;
+
+}
+.barraLateral .caixaPesquisa{
+    display: flex;
+    margin-bottom: 30px;
+    width: 342px;
+    height: 52px;
+}
+
+.barraLateral .caixaPesquisa #pesquisa {
+    padding: 2px 20px;
+    width: 246px;
+    height: 43px;
+    border: 1px solid #F5F5F5;
+    background: #F5F5F5;
+}
+
+.barraLateral .caixaPesquisa #pesquisa:hover{
+    border: 1px solid #2E245E;
+}
+
+.barraLateral .caixaPesquisa #btnpesquisa{
+    width: 96px;
+    height: 50px;
+    background-color: #37268C;
+    border: #37268C;
+    color: white;
+}
+    
+    /*
+    /CARRINHO COMPRAS
+
+    */
+.barraLateral .carrinhoCompra {
+    width: 347px;
+    height: 214px;
+    background: #F5F5F5;
+}
+
+.barraLateral .carrinhoCompra h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 347px;
+    height: 60px;
+    background-color: #37268C;
+    color: white;
+}
+
+.barraLateral .carrinhoCompra h3{
+    text-align: center;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 24px;
+    margin: 50px 0px 0px 0px;
+    color: #292929;
+}
+
+.barraLateral .carrinhoCompra p{
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #242424;
+}
+
+.barraLateral .carrinhoCompra p:hover{
+    text-decoration: underline;
+    transform: scale(110%);
+}
