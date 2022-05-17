@@ -130,16 +130,12 @@ header nav .menu:hover{
     cursor: pointer
 }
 
-.Vitrine  ul .cardProduto figure img:hover{
-    transform: scale(125%); 
-}
-
-.Vitrine  ul .cardProduto .descricao{
+.Vitrine  ul .cardProduto .containercard{
     padding: 20px 15px;
     
 }
 
-.Vitrine  ul .cardProduto .descricao .tipo{
+.Vitrine  ul .cardProduto .containercard .tipoProduto{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -153,13 +149,13 @@ header nav .menu:hover{
     cursor: pointer
 }
 
-.Vitrine  ul .cardProduto .descricao .tipo:hover{
+.Vitrine  ul .cardProduto .containercard .tipoProduto:hover{
     border: 3px solid #2E245E;
     transform: scale(102%);
     padding: 12px 5px #2E245E;
 }
 
-.Vitrine  ul .cardProduto .descricao .nomeProduto{
+.Vitrine  ul .cardProduto .containercard .nomeProduto{
     width: 269px;
     height: 24px;
     font-family: 'Inter';
@@ -170,7 +166,7 @@ header nav .menu:hover{
     color: #292929;
 }
 
-.Vitrine  ul .cardProduto .descricao .descricaProduto{
+.Vitrine  ul .cardProduto .containercard .descricaProduto{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -179,7 +175,7 @@ header nav .menu:hover{
     color: #242424;
 }
 
-.Vitrine  ul .cardProduto .descricao .preco{
+.Vitrine  ul .cardProduto .containercard .preco{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
@@ -190,7 +186,7 @@ header nav .menu:hover{
     color: #2E245E;
 }
 
-.Vitrine  ul .cardProduto .descricao .adcCarrinho{
+.Vitrine  ul .cardProduto .containercard .adcCarrinho{
     align-items: center;
     background-color: white;
     border: 1px solid white;
@@ -201,7 +197,7 @@ header nav .menu:hover{
     cursor: pointer
 }
 
-.Vitrine ul .cardProduto .descricao .adcCarrinho:hover{
+.Vitrine ul .cardProduto .containercard .adcCarrinho:hover{
     transform: scale(110%);
     text-decoration: underline;
    

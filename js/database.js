@@ -26,7 +26,7 @@ const data = [
     img: "../img/mascara.svg",
     nameItem: "Mask",
     description:
-      "Esta máscara facial durável é feita de duas camadas de tecido tratado e possui presilhas...",
+      "Esta máscara facial durável é feita de duas camadas de tecido tratado e possui ...",
     value: 40,
     addCart: "Adicionar ao carrinho",
     tag: ["Acessórios"],
@@ -46,7 +46,7 @@ const data = [
     img: "../img/camiseta_branca.svg",
     nameItem: "Short-Sleeve T-Shirt",
     description:
-      "Agora você encontrou a camiseta básica do seu guarda-roupa. É feito de um mais grosso...",
+    "Agora você encontrou a camiseta básica do seu guarda-roupa.É feito de um mais ...",
     value: 100,
     addCart: "Adicionar ao carrinho",
     tag: ["Camisetas"],
@@ -56,9 +56,10 @@ const data = [
     img: "../img/moletom.svg",
     nameItem: "Champion Packable Jacket",
     description:
-      "Proteja-se dos elementos com esta jaqueta embalável Champion. Esta jaqueta de poliést...",
+      "Proteja-se dos elementos com esta jaqueta embalável Champion. Esta jaqueta de ...",
     value: 100,
     addCart: "Adicionar ao carrinho",
     tag: ["Camisetas"],
   },
+  
 ];
